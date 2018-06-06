@@ -1,0 +1,33 @@
+<form method="post" action="/student">
+  <div class="form-wrapper">
+
+    <div class="form-el">
+      <laber for="first_name">First Name:</label>
+        <input id="first_name" type="text" name="first_name"/>
+      </div>
+
+      <div class="form-el">
+        <laber for="second_name">Second Name:</label>
+          <input id="second_name" type="text" name="second_name"/>
+        </div>
+
+        <div class="form-el">
+          <label for="house_select">Select House:</label>
+          <select name="house_id" id="house_select">
+            <% @houses.each do |house| %>
+            <option value="<%= house.id %>"><%= house.name.capitalize %></option>
+            <% end %>
+          </select>
+        </div>
+
+        <div class="form-el">
+          <label for ="age">Age:</label>
+          <input id="age" type="number" name="age"/>
+        </div>
+
+        <div class="form-el">
+          <input type='submit' value="Enrol Student"/>
+        </div>
+
+      </div>
+    </form>

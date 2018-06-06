@@ -1,0 +1,14 @@
+<h2>Students</h2>
+
+<div id="student-wrapper">
+<% for student in @students %>
+
+  <div class="student">
+  <p>Name: <%= student.complete_name %></p>
+  <p>Age: <%= student.age %></p>
+  <p>House: <%= student.house.name.capitalize %></p>
+  <p><a class="menu-item" href="/student/<%= student.id %>">Show Student</a></p>
+  </div>
+
+<% end %>
+</div>

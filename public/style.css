@@ -1,0 +1,126 @@
+body{
+  height: 100%;
+  background-image: url("https://pre00.deviantart.net/6e24/th/pre/i/2015/026/c/8/hogwarts_by_llamllam-d8fhc01.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-color: black;
+  margin: 0px;
+  background-size: cover;
+}
+
+#menu {
+  display: flex;
+  margin: 0 auto;
+  background-color: #333;
+}
+
+.menu-item {
+  display: inline-block;
+  flex-grow: 1;
+  font-family: arial;
+  font-size: 18px;
+  color: white;
+  font-family: URW Chancery L, cursive;
+}
+
+h1 {
+font-family: Snell Roundhand, cursive;
+font-size: 55px;
+color: white;
+}
+
+h2 {
+font-family: URW Chancery L, cursive;
+font-size: 35 px;
+color: white;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: rgba(0,0,0,0.6);
+}
+
+h3 {
+font-family: URW Chancery L, cursive;
+font-size: 35 px;
+color: white;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+p{
+  font-family: URW Chancery L, cursive;
+  font-size: 25 px;
+  color: white;
+}
+
+.box_2 {
+  width: 350px;
+  height: 150px;
+  background-color: rgba(0,0,0,0.6);
+  padding: 3%;
+}
+
+#student-wrapper {
+  margin-left: 300px;
+}
+.student {
+  border: 5px double;
+  margin: 0 35px 30px 0;
+  padding: 25px;
+  width: 200px;
+  display: inline-block;
+  background-color: rgba(0,0,0,0.6);
+  font-family: URW Chancery L, cursive;
+  color: white;
+}
+
+.form-el {
+  margin: 10px 0;
+  color: black;
+  margin:0px auto;
+  height: 35px;
+  background-color: rgba(0,0,0,0.6);
+  color: white;
+  width: 400px;
+  font-family: URW Chancery L, cursive;
+}
+
+.form-wrapper .form-el input[type="submit" i] {
+  width:160px;
+   display: block;
+   margin:0px auto;
+   font-size: 26px;
+}
+
+.form-wrapper .form-el label {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 160px;
+  margin: 0 1em 0 0;
+}
